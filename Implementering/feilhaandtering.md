@@ -5,18 +5,18 @@
 Håndtering av kjøretidsfeil gjøre med nøkkelordene try og except.
 Ptyhon forsøker å kjøre koddeblokken som ligger under 'try:', hvis python får en kodemelding, vil den kjøre kodeblokken osm ligger under 'except:'
 
-''' python
+``` python
  try:
      alder = int(input("Alder: "))
      fødselsår = 2023 - alder
      print(F"Fødselsår: {fødselsår}")
  except:
      print("Feil: Alder må være et positivt heltall")
-'''
+```
 
 ### Eksperttips: While-løkke med try-except
 
-'''python
+``` python
 while True:
     try:
         alder = int(input("Alder: "))
@@ -26,14 +26,14 @@ while True:
 
 føselsår = 2023 - alder
 print(f"Fødselsår: {føselsår}")
-'''
+```
 
 ## Logiske feil i programmer
 
 For å oppdage logiske feil i programmet kan vi bruke nøkkelordet assert for å forsikkre oss om at koden gir korrekt resultat
 
 Eks:
-'''pytohn
+```python
 def areal(l,b):
     assert l >=0, b >= 0
     return l*b
@@ -45,11 +45,11 @@ assert areal(3,3) == 9
 
 assert omkrets(3,3) == 12
 assert omkrets(2,3) == 10
-'''
+```
 
 ## Håndtering av kjøretidsfeil og logiske feil
 
-'''python
+```python
 while True:
     try:
         alder = int(input("Alder: "))
@@ -60,4 +60,4 @@ while True:
 
 føselsår = 2023 - alder
 print(f"Fødselsår: {føselsår}")
-'''
+```
