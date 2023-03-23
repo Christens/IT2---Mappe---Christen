@@ -30,7 +30,7 @@ print(f"Fødselsår: {føselsår}")
 
 ## Logiske feil i programmer
 
-For å oppdage logiske feil i programmet kan vi bruke nøkkelordet assert for å forsikkre oss om at koden gir korrekt resultat
+For å oppdage logiske feil i programmet kan vi bruke nøkkelordet assert for å forsikre oss om at koden gir korrekt resultat
 
 Eks:
 ```python
