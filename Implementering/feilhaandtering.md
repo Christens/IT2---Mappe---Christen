@@ -61,3 +61,7 @@ while True:
 føselsår = 2023 - alder
 print(f"Fødselsår: {føselsår}")
 ```
+
+### Eksempel på feilhandtering i større programmer:
+[app.py Filmsiden](https://github.com/Christens/Filmsiden/blob/main/app.py)
+Try/Except er lagt til i ruten til "Søk". Hvis bruker legger inn et søk som ikke gir resultater vil en egen error-side "error.html" bli returnert og siden slipper dermed å stoppe opp
