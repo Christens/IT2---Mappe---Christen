@@ -13,13 +13,15 @@ poeng = 0
 font = pg.font.SysFont("Arial", 50)
 
 def bestem_farge():
-    n = randint(1,30)
+    n = randint(1,35)
     if n < 21:
         return "blaa"
     elif 20 < n < 29:
         return "groenn"
-    else:
+    elif n == 30 or n == 31:
         return "roed"
+    else:
+        return "svart"
 
 for i in range(10):
     ny_blink = Blink()
