@@ -52,3 +52,7 @@ Hvis perosner med briller skal ha en egen initialverdi uten at personer uten bri
 ```
 
 Subklasser vil også arve superklassens metoder
+
+## Eksempel
+Spiller i pygame med bruk av OOP og arv:
+[Skyteblink](Problemløsning/OOP/Skyte blink - Pygame/verden.py)
