@@ -55,4 +55,4 @@ Subklasser vil også arve superklassens metoder
 
 ## Eksempel
 Spiller i pygame med bruk av OOP og arv:
-[Skyteblink](Skyteblink_pygame/verden.py)
+[Skyteblink](Skyteblink_pygame/blink.py)
