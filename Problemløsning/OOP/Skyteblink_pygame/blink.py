@@ -64,9 +64,13 @@ class Blink(Blink_mal):
         elif farge == "groenn":
             self._farge = ((0,255,0))
             self._poeng = 3
+            self._xFart = randint(7,10)/3
+            self._yFart = randint(7,10)/3
         else:
             self._farge = ((255,0,0))
             self._poeng = 5
+            self._xFart = randint(10,13)/3
+            self._yFart = randint(10,13)/3
 
     def opprett(self, vindu):
         pg.draw.circle(vindu, self._farge, (self._xPos,self._yPos), 10)

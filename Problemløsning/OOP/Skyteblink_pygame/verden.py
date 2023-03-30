@@ -60,7 +60,7 @@ while fortsett:
             blinker.append(ny_blink)
 
     poengsum = font.render(str(poeng), True, (255,255,255))
-    vindu.blit(poengsum, (920, 20))
+    vindu.blit(poengsum, (10, 0))
 
     clock.tick(60)
 
