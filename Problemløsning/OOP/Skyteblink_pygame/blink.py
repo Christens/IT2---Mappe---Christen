@@ -3,6 +3,14 @@ import math
 import pygame as pg
 
 class Blink_mal:
+    """ Superklasse for blinkene
+
+    Attributes:
+    Alle verider er satt fra før
+    Gir blinkene posisjon og fart i x og y retning
+    Definerer self._tilstand, om blinken er skutt eller ikke
+    
+    """
     def __init__(self):
         self._xPos = -10
         self._yPos = randint(0,500)
@@ -35,6 +43,12 @@ class Blink_mal:
     
 
 class Blink(Blink_mal):
+    """ Subklasse for Blink
+
+    Attributes:
+    Gir blinkene egenskapene poeng og farge som senere defineres med metode "sett_farge_og_poeng"
+    
+    """
     def __init__(self):
         super().__init__()
         self._poeng = 0
