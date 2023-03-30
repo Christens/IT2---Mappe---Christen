@@ -18,4 +18,4 @@
     - Løsninger med programmering
     - Gjenbrukbar kode
     - Innhente, analysere og presentere data
-    - [Vern mot kjøretidsfeil og logiske feil i programmer](./Implementering/feilhaandtering.md)
+    - [Vern mot kjøretidsfeil og logiske feil i programmer](Modellering_og_representasjon/bruekervennlighet.md)
