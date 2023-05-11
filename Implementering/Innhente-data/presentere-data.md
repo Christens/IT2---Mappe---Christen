@@ -15,7 +15,7 @@ I IT2 lærer vi to måter å presentere data på, nemlig:
 ## Tegne grafer
 
 For å tegne grafer i Python kan vi bruke biblioteket `matplotlib`.
-Eks:
+Eks: [Matematiske funksjoner]()
 
 
 ## Lage nettsider (HTML/Flask)
