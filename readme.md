@@ -11,7 +11,7 @@
     - Alternative løsninger
     - [Objektorienterte programmer med klasser, arv og objekter](Problemløsning/OOP/OOP.md)
 - Modellering og representasjon
-    - [Objektorienterte modeller som beskriver programstruktur (UML)]()
+    - [Objektorienterte modeller som beskriver programstruktur (UML)](https://github.com/Christens/IT2---Mappe---Christen/blob/main/Modellering_og_representasjon/Skjermbilde%202023-05-11%20kl.%2010.42.05.png)
     - Representasjon av programflyt med kontrollstrukturer (flytdiagram)
     - [Brukevennlighet i programmer](Modellering_og_representasjon/brukervennlighet.md)
 - Implementering
