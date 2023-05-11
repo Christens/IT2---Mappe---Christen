@@ -11,7 +11,7 @@ class Blink_mal:
     Definerer self._tilstand, om blinken er skutt eller ikke
     
     """
-    def __init__(self):
+    def __init__(self):    
         self._xPos = -10
         self._yPos = randint(0,500)
         self._xFart = randint(3,7)/3

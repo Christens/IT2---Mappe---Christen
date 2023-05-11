@@ -2,6 +2,12 @@ import pygame as pg
 
 class Sikte:
     def __init__(self, musX, musY):
+        """Klasse som oppretter sikte rundt musen på skjermen
+
+        Args:
+            musX (integer): Henter musens x-verdi
+            musY (integer): Hneter musens y-verdi
+        """        
         self._xPos = musX
         self._yPos = musY
 
